@@ -1,17 +1,12 @@
 body{
-    font-family: "Poppins", Arial, sans-serif;
-    background: #151111;
-    font-size: 15px;
-    line-height: 1.8;
-    font-weight: 300;
-    color: gray;
-    background: url(../images/background.jpg) no-repeat fixed;
-   
+ background-color: #111010;
 }
+
 header{
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 100;
 }
 .navigation-wraper{
     display: flex;
@@ -168,3 +163,308 @@ span{
     background-repeat: no-repeat;
     background-size:cover;
   }
+  /* slider inside div*/
+#insideDiv{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h3-element{
+    font-size: 40px;
+    font-family: 'Great Vibes';
+    color: #c49b63;
+}
+.h2-element{
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fff;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-family: 'Josefin Slab';
+}
+.p-element{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: white;
+    font-family: 'Josefin Slab';
+    margin-top: 30px;
+}
+/* second section*/
+
+#second-id{
+   margin-top: 200px;
+    display: flex;
+}
+.background-img1{
+    background-image: url('../images/background2.jpg');
+    width: 60%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: 9;
+}
+.secondsection-div2{
+    max-width: 500px;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+    opacity: 0.7;
+    padding: 30px;
+    position: relative;
+    margin-top: 100px;
+    left: 50%;
+}
+.h3in-div{
+    font-size: 50px;
+    font-family: "Great Vibes";
+    color: #c49b63;
+    line-height: 1;
+}
+.h2in-div{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Josefin Slab';
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+}
+.pin-div{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Josefin Slab';
+    color: gray;
+}
+/*third section*/
+.thirdsection-div{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #c49b63;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.three-divs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    width: 100%;
+}
+.smalldiv3{
+    width: 100px;
+    height: 100px;
+    bordeR: 2px solid #674c27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.icons{
+ font-size: 45px;
+ color: #1d150b;
+}
+.h4-tag{
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Josefin Slab';
+}
+.p-tag3{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Josefin Slab';
+    text-align: center;
+}
+
+/* fourth section*/
+.fourth-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.left-div4{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    max-width: 500px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.h3-tag4{
+    font-size: 50px;
+    font-family: "Great Vibes", cursive;
+    color: #c49b63;
+    line-height: 1;
+}
+.h2-tag4{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Josefin Slab';
+    color: #fff;
+    margin-top: 20px;
+
+}
+.p-tag4{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Josefin Slab';
+    color:gray;
+    text-align: end;
+}
+
+/*right div*/
+.right-div4{
+    display: grid;
+    grid-template-columns: 45%  45%;
+    gap: 40px;
+    margin-right: 60px;
+}
+.coffee{
+    max-width: 225px;
+    width: 225px;
+    height: 225px;
+}
+.image1{
+    margin-top: -30px;
+}
+.image3{
+    margin-top: -30px;
+}
+
+
+/*footer*/
+footer{
+    background-color:black;
+}
+.footer{
+    margin-top: 200px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+#top-div{
+    display: flex;
+    justify-content: space-between;
+}
+/*first div*/
+.first-divfooter{
+    max-width: 250px;
+}
+.h3element{
+    font-weight: normal;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Josefin Slab';
+    margin-bottom: 40px;
+}
+.p-first{
+    margin-top: 70px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Great Vibes';
+    color: gray;
+}
+.icons-div3{
+    display: flex;
+    margin-top: 50px;
+}
+.fb-icon{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    background-color: rgba(255, 255, 255, 0.05);
+    position: relative;
+    margin-left: 20px;
+   
+}
+.white-icons{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: white;
+}
+/* second div*/
+.pizza{
+    width: 80px;
+    height: 70px;
+}
+.top{
+    display: flex;
+    max-width: 350px;
+}
+.bottom{
+    margin-top: 30px;
+}
+.p-pizza{
+    margin-left: 30px;
+    max-width: 180px;
+    width: 100%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'Great Vibes';
+    margin-bottom: 10px;
+}
+.fa-calendar-days{
+    color: gray;
+    font-size: 12px;
+    font-family: 'Great Vibes';
+    margin-left: 35px;
+}
+.fa-calendar-days::after{
+    margin-left: 15px;
+    content: " Sept 15, 2018";
+    color: gray;
+    font-size: 12px;
+    font-family: 'Great Vibes';
+
+}
+/*third */
+.li-tags{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+    font-family: 'Great Vibes';
+}
+/*fourth */
+.info-divs{
+    display: flex;
+}
+.icons-2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+.info-p{
+    margin-left: 20px;
+    max-width: 200px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Great Vibes';
+
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    font-family: 'Great Vibes';
+    margin-top: 150px;
+    text-align: center;
+}
