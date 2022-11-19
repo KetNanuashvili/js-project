@@ -353,7 +353,6 @@ footer{
     background-color:black;
 }
 .footer{
-    margin-top: 200px;
     padding: 100px;
     display: flex;
     flex-direction: column;
@@ -615,4 +614,26 @@ footer{
 .contactsection-div{
     margin-top: 800px;
 }
-
+/*map*/
+.map-section{
+    margin-top: 150px;
+    width: 100%;
+    height: 400px;
+}
+.map{
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+}
+.map-block{
+ width: 100%;
+ height: 100%;
+}
+/*services in html*/
+.services-html{
+    margin-top: 750px;
+    margin-bottom: 50px;
+}
+.smalldiv3:hover{
+    cursor: pointer;
+}
