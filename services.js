@@ -7,6 +7,14 @@ toggleBar.addEventListener('click', function(){
     toggleBar.classList.toggle('toggleActive');
     navBar.classList.toggle('overlay');
 }) 
+const navbar = document.querySelector('.nav-fixed');
+window.onscroll = () => {
+    if (window.scrollY > 300) {
+        navbar.classList.add('nav-active');
+    } else {
+        navbar.classList.remove('nav-active');
+    }
+};
 //third section
 
 document.querySelectorAll('.three-divs').forEach(item => {
