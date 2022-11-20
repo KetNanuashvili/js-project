@@ -62,7 +62,7 @@ header{
     width: 100%;
     height: 100vh;
     display: flex;
-    background-color:darkslategrey;
+    background-color:#674c27;
     justify-content: center;
     align-items: center;
 }
@@ -468,7 +468,7 @@ footer{
     color: rgba(255, 255, 255, 0.7);
     font-size: 20px;
     font-family: 'Great Vibes';
-    margin-top: 150px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -550,9 +550,6 @@ footer{
     color: red;
     font-family: 'Great Vibes';
     font-size: 16px;
-}
-.next-section{
-    display: flex;
 }
 .textarea-form{
     resize: none;
@@ -773,6 +770,7 @@ footer{
     font-size: 25px;
     color:#fff;
     font-family: 'Josefin Slab';
+    text-align: center;
 }
 .accordion-title:hover{
     cursor: pointer;
@@ -832,4 +830,48 @@ footer{
 /*about section in html*/
 .second-divaabout{
     margin-top: 800px;
+}
+
+/*accordion from about html*/
+.about-section{
+    margin-top: 800px;
+}
+.content-about{
+    height: 0;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+    font-family: 'Josefin Slab';
+    text-align: center;
+}
+.container-about{
+    max-width: 280px;
+    width: 100%;
+  height: 400px;
+}
+.container-about:hover{
+    cursor: pointer;
+}
+.accordion-about{
+    display: flex;
+    justify-content: space-between;
+}
+.container-about.active .content-about{
+    color:#674c27;
+    height: 200px;
+}
+.content-p{
+    font-size: 20px;
+    font-family: 'Josefin Slab';
+    text-align: center;
+    color:#fff;
+}
+
+/*scroll to top*/
+#top{
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+   color:  #674c27;
+   font-size: 80px;
 }

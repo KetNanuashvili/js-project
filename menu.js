@@ -1,4 +1,15 @@
 
+//nav=-bar
+let navBar = document.getElementById('navigation');
+let toggleBar = document.getElementById('toggle-menu');
+
+
+toggleBar.addEventListener('click', function(){
+    toggleBar.classList.toggle('toggleActive');
+    navBar.classList.toggle('overlay');
+}) 
+
+
 let mainWraperPost = document.getElementById("post-wraperBlock");
 let postOverlay = document.getElementById("overlay");
 let overlayContent = document.getElementById("postcontent");

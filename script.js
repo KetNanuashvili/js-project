@@ -8,6 +8,8 @@ toggleBar.addEventListener('click', function(){
     navBar.classList.toggle('overlay');
 }) 
 
+//header
+
 /// slider
 
 let data = [
@@ -332,3 +334,14 @@ fourthDiv2.appendChild(image4);
 //     }
 // });
 
+
+//scroll to top
+
+let scrollBtn = document.getElementById('top');
+
+scrollBtn.addEventListener('click', function(){
+    window.scrollTo({
+        top:0,
+        behavior:'smooth'
+    })
+})
