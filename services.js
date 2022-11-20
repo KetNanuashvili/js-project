@@ -7,6 +7,7 @@ toggleBar.addEventListener('click', function(){
     toggleBar.classList.toggle('toggleActive');
     navBar.classList.toggle('overlay');
 }) 
+
 const navbar = document.querySelector('.nav-fixed');
 window.onscroll = () => {
     if (window.scrollY > 300) {
